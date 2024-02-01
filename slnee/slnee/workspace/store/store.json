@@ -1,0 +1,171 @@
+{
+ "category": "Modules",
+ "charts": [
+  {
+   "chart_name": "Store Quotations Trends",
+   "label": ""
+  }
+ ],
+ "creation": "2022-08-11 14:06:14.798697",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "sell",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Store",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Woocommerce",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customers",
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Products",
+   "link_to": "Store Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotations",
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Others",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Categories",
+   "link_to": "Store Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attribute",
+   "link_to": "Product Attribute",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Store Quotations Trends",
+   "link_to": "Store Quotation Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "only_for": "",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integrations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_to": "Wordpress Store",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Add Items Tool",
+   "link_to": "Add Items to Store Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-12-14 09:16:25.382596",
+ "modified_by": "Administrator",
+ "module": "Slnee",
+ "name": "Store",
+ "owner": "Administrator",
+ "pin_to_bottom": 1,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "color": "#0cab71",
+   "doc_view": "",
+   "format": "{} From Store",
+   "label": "Customer",
+   "link_to": "Customer",
+   "stats_filter": "{\n    \"customer_group\":[\"in\", [\"Wordpress Store\"]]\n}",
+   "type": "DocType"
+  },
+  {
+   "color": "#29CD42",
+   "doc_view": "List",
+   "format": "{} Published",
+   "label": "Products",
+   "link_to": "Store Item",
+   "stats_filter": "{\n    \"status\":[\"in\", [\"Publish\"]]\n}",
+   "type": "DocType"
+  },
+  {
+   "color": "#EC864B",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Store Quotations",
+   "link_to": "Quotation",
+   "restrict_to_domain": "",
+   "stats_filter": "{\n     \"status\":[\"in\", [\"open\"]],\n    \"order_type\":[\"in\",[\"Shopping Cart\"]],\n}",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Dashboard",
+   "link_to": "Wordpress Store",
+   "type": "Dashboard"
+  }
+ ]
+}
